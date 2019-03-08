@@ -25,6 +25,9 @@ addEvent(document, 'click', (e) => {
 	})
 })
 
+/*
+* 点击元素外面触发事件
+*/
 export default {
   bind (el, binding, vnode) {
   	el[attr] = ++id
